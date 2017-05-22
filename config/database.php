@@ -56,7 +56,7 @@ return [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'lara5_fedup'),
+            'database' => env('DB_DATABASE', 'xenusfit_lara5_fedup'),
             'username' => env('DB_USERNAME', 'xenusfit_admin'),
             'password' => env('DB_PASSWORD', '727887@admin'),
             'charset' => 'utf8',
