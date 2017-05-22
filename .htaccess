@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteCond %{HTTP_HOST} !^www.fedupproject.com.au$ [NC]
+    RewriteRule ^(.*)$ http://www.fedupproject.com.au/$1 [L,R=301]
+
+    RewriteEngine On
+
+    # Redirect Trailing Slashes...
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+    
+    #RewriteCond %{REQUEST_URI} !^public
+    #RewriteRule ^ public/$1 [L]
+    RewriteRule ^(.*)$ public/$1 [L]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    RewriteCond %{HTTP_HOST} ^103\.9\.170\.105
+    RewriteRule (.*) http://www.fedupproject.com.au/$1 [R=301,L]
+    
+</IfModule>

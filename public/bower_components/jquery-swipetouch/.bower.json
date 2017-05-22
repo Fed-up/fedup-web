@@ -1,0 +1,39 @@
+{
+  "name": "jquery-swipetouch",
+  "main": "jquery.swipetouch.js",
+  "homepage": "https://github.com/Grzegorzsa/jquery.swipetouch",
+  "authors": [
+    "Grzegorz Sarzynski <greg.syz@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Grzegorzsa/jquery.swipetouch.git"
+  },
+  "description": "Lightweight and high performance jQuery plugin to handle touch, swipe and click events.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jquery",
+    "swipe",
+    "touch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "d1f65e8353",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d1f65e8353f6c859b42a79183852c223b20ff62d"
+  },
+  "_source": "https://github.com/Grzegorzsa/jquery.swipetouch.git",
+  "_target": "*",
+  "_originalSource": "jquery-swipetouch",
+  "_direct": true
+}

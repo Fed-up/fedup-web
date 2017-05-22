@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>jQuery Swipe Touch Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 1em 2em 1em;
+      box-sizing: border-box;
+    }
+    #my_elem {
+      width: 250px;
+      height: 200px;
+      border: 1px solid #333;
+      padding: 1em;
+      cursor: pointer;
+      overflow-y: scroll;
+    }
+    pre {
+      padding: 1em;
+      background-color: #eee;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="jquery.swipetouch.js"></script>
+  <script>
+    $(function(){
+      $('#my_elem').swipeTouch({
+        click:clicked,
+        dblClick:dblclicked,
+        tap:tapped,
+        dblTap:dbltapped,
+        swipeUp:swipedUp,
+        swipeDown:swipedDown,
+        swipeLeft: swipedLeft,
+        swipeRight: swipedRight,
+        scroll: false
+      });
+    });
+
+    function output(str) {
+      var obj = $('#my_elem'),
+          text = obj.html();
+      obj.html(str + '<br>' + text);
+    }
+    function clicked() {
+      output('click');
+    }
+    function dblclicked() {
+      output('double click');
+    }
+    function swipedLeft() {
+      output('swipe left');
+    }
+    function swipedRight() {
+      output('swipe right');
+    }
+    function swipedUp() {
+      output('swipe up');
+    }
+    function swipedDown() {
+      output('swipe down');
+    }
+    function tapped() {
+      output('single tap');
+    }
+    function dbltapped() {
+      output('double tap');
+    }
+  </script>
+</head>
+<body>
+<div class="container">
+  <h1>jQuery Swipe Touch Demo</h1>
+  <p>Lightweight and high  performance jQuery plugin to handle touch, swipe and click events</p>
+  <p>The library allows you to handle mouse and touch events independently.</p>
+  <h2>Demo</h2>
+  <div id="my_elem">
+    <p>Click here with mouse or tap / swipe on your mobile devices.</p>
+  </div>
+  <h2>Usage</h2>
+  <p>$("#my_elem").swipeTouch(handlers/options) - attach event handlers to the element.</p>
+  <p>$("#my_elem").swipeTouchStop() - detach event handlers from the element. </p>
+  <h2>Example</h2>
+  <p> Attach swipeLeft and swipeRight event handlers to the element with threshold option set to 40px.</p>
+  <p><pre>$("#my_elem").swipeTouch({
+    swipeLeft: function(){alert("Swiped left!!!")},
+    swipeRight: function(){alert("Swiped right!!!")},
+    threshold:40
+})</pre> </p>
+  <h2>Available events:</h2>
+  <p>swipeLeft, swipeRight, swipeUp, swipeDown, click, dblClick, tap, dblTap, touchStart, touchEnd, mouseDown, mouseUp</p>
+  <h2>Available options:</h2>
+  <p>scroll (default: false) - enable page scrolling while swiping an element.</p>
+  <p>threshold (default: 20) - min. number of pixels needed for triggering swipe event.</p>
+  <h2>Download</h2>
+  <a href="https://github.com/Grzegorzsa/jquery.swipetouch/archive/master.zip">jquery.swipetouch-master.zip</a>
+</div>
+</body>
+</html>

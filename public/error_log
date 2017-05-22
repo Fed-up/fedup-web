@@ -1,0 +1,2 @@
+
+[19-Jul-2016 11:34:25 UTC] PHP Fatal error:  Class 'App\Models\ingredient' not found in /home/xenusfit/public_html/educatedominate.com/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 956

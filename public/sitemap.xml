@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.fedupproject.com.au/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.fedupproject.com.au/pdf/FedUp_Catering.pdf</loc>
+  <lastmod>2016-09-03T12:14:27+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.fedupproject.com.au/healthy_dessert_bar</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.fedupproject.com.au/pdf/FedUp_Menu.pdf</loc>
+  <lastmod>2016-09-03T12:13:26+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.fedupproject.com.au/getfedup</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.fedupproject.com.au/getfedup/100-Days-2-Summer-Wellness-Journey</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.fedupproject.com.au/getfedup/tag/100days2summer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.fedupproject.com.au/getfedup/wellness-summit</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.fedupproject.com.au/getfedup/tag/2016event</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.fedupproject.com.au/getfedup/Fed-Up-Project-This-Project-Is-Life-</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.fedupproject.com.au/getfedup/tag/fedupproject</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.fedupproject.com.au/pdf/Fed-Up-Project-Wellness-Summit-Menu.pdf</loc>
+  <lastmod>2016-09-06T05:43:11+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+</urlset>

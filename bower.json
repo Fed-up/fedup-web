@@ -1,0 +1,21 @@
+{
+  "name": "lara5",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4"
+  },
+  "devDependencies": {
+    "livereload-js": "^2.2.1"
+  }
+}
