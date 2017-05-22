@@ -74,10 +74,6 @@
               eat@fedupproject.com.au
             </a> 
             <a href="96966701" class="phone_icon hide-large-up"><img class="" src="/images/site/phone1.png" style="width: 5rem;" /></a>
-            <!-- <a href="96966701" class="link show-large-up">96966701</a> -->
-            <!-- <a id="target" class="logo__text" href="/">{{ $title or "Fed Up Project" }}</a> -->
-            <!-- <a href="/about-us" class="lt_logo"><span class="logo__image"></span></a>   -->
-            <!-- <img class="menu__icon" src="/images/site/menu_icon.png"/> -->
         </div>
     </aside><!-- /panel -->
     
