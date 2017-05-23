@@ -1,5 +1,7 @@
 <?php
 
+123
+
 namespace App\Http\Controllers\Auth;
 
 use App\User;
