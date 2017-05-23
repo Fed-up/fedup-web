@@ -1,6 +1,5 @@
 <?php
 
-123
 
 namespace App\Http\Controllers\Auth;
 
@@ -30,7 +29,7 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/admin/recipes';
+    protected $redirectTo = '/admin';
 
     /**
      * Create a new authentication controller instance.
