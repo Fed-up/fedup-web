@@ -57,7 +57,7 @@ return [
     */
 
     // 'from' => ['address' => null, 'name' => null],
-    'from' => ['address' => 'eat@fedupproject.com.au', 'name' => 'Fed Up Project Party'],
+    'from' => ['address' => 'eat@fedupproject.com.au', 'name' => 'Fed Up Project'],
 
     /*
     |--------------------------------------------------------------------------
