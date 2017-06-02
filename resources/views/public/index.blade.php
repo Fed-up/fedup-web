@@ -44,9 +44,7 @@
             <div class="row">
                 
                 <div class="columns small-12 large-8 about_content">
-                    <div>
-                        <p class="business_hours">Mon - Fri: 6am - 5pm, Sat:&nbsp;8am&nbsp;-&nbsp;2pmish</p>
-                    </div>
+                    
                     
                     <div class="book_button">
                         <div class="columns small-12">
@@ -55,11 +53,17 @@
                             </div> 
                         </div>
                     </div>
+
+                    <div>
+                        <p class="business_hours">Mon - Fri: 6am - 5pm, Sat:&nbsp;8am&nbsp;-&nbsp;2pmish</p>
+                    </div>
                     
                 </div>
                 
                 <div class="columns small-12 large-4 show-large-up sc_wrapper">   
-                    <img class="about_image" src="/images/site/sc_top.png" alt="SNAPCHAT US @ FEDUPPROJECT">
+                    <a href="https://www.snapchat.com/add/fedupproject">
+                        <img class="about_image" src="/images/site/sc_top.png" alt="SNAPCHAT US @ FEDUPPROJECT">
+                    </a>
                 </div>
             </div>
         </div>
@@ -80,10 +84,12 @@
         <div class="explain_section">
             <div class="row">
                 <div class="columns small-12 large-7">
-                    <p class="explain_heading">Local Food, <br> Price never compromises great taste <br> @fedupproject</p>
+                    <p class="explain_heading">Local Food, <br> Price never compromises <br> great taste <br> @fedupproject</p>
                 </div>
                 <div class="columns small-12 large-5 ">
-                    <img class="explain_image" src="/images/site/menu.jpg" alt="Girls working at Fed Up Project">
+                    <a href="/pdf/Fed-Up-Project-Menu.pdf">
+                        <img class="explain_image" src="/images/site/not_salad.png" alt="Girls working at Fed Up Project">
+                    </a>
                 </div>
             </div>
             <div class="row">
@@ -96,7 +102,9 @@
                     
                 </div>
                 <div class="columns small-12 large-5 large-pull-7">
-                    <img class="explain_image hide-for-small-only" src="/images/site/menu.jpg" alt="Girls working at Fed Up Project">
+                    <a href="/pdf/Fed-Up-Project-Menu.pdf">
+                        <img class="explain_image hide-for-small-only" src="/images/site/poke.jpg" alt="Girls working at Fed Up Project">
+                    </a>
                 </div>            
             </div>
         </div>
@@ -112,7 +120,7 @@
                         </a>
                     </div>
                     <div class="columns small-12 medium-6">
-                        <a href="/catering">
+                        <a href="/pdf/Fed-Up-Project-Catering-Menu.pdf">
                             <img class="sc_image_front" src="/images/site/2.png" alt="Catering Image">
                             <div class="sc_text_wrap">
                                 <p class="sc_text">Catering</p>
@@ -122,7 +130,7 @@
                 </div>
                 <div class="columns small-8 medium-4 large-2">
                     <div class="columns small-12">
-                        <a href="/menu">
+                        <a href="/pdf/Fed-Up-Project-Menu.pdf">
                             <img class="sc_image_front" src="/images/site/3.png" alt="Menu Image">
                             <div class="sc_text_wrap sc_big_text_wrap">
                                 <p class="sc_text_large">Menu</p>
@@ -219,7 +227,7 @@
                     </div>
                     <div class="row no_row">
                         <div class="columns small-12 medium-6 large-3">
-                            <a href="https://www.youtube.com/">
+                            <a href="https://www.youtube.com/channel/UCtmDLIB-t9I71J4n-hHeBng"> 
                                 <img id="over" class="media__icon" src="/images/site/youtube.png" alt="Still working on youtube, live cooking classes are coming soon"/>
                                 <p>Cooking classes & Collaborative Interviews</p>
                             </a>
